@@ -1,4 +1,4 @@
-#require 'rubygems'
+source 'https://rubygems.org'
 require 'sinatra'
 #require 'haml'
 
