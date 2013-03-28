@@ -3,6 +3,6 @@ require 'sinatra'
 require 'haml'
 
 get '/' do
-  "Hello, Julia"
+	haml :about
 end
 
