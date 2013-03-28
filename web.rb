@@ -1,6 +1,6 @@
-require 'rubygems'
+#require 'rubygems'
 require 'sinatra'
-require 'haml'
+#require 'haml'
 
 get '/' do
   "Hello, Julia"
