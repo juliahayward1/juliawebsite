@@ -9,3 +9,7 @@ end
 get '/about' do
 	haml :about
 end
+
+get '/more' do
+	haml :more
+end
