@@ -3,7 +3,7 @@
         margin:auto;  
     }  
     #header{  
-        background-color:#ade;  
+        background-color:#FFFFCC;  
     }  
     #header>h1{  
         font-size:200%;  
@@ -21,7 +21,7 @@
         width :30%;  
         float:right;  
         clear:none;  
-        background-color:#ddd;  
+        background-color:#FFFFCC;  
     }  
 
     #side_bar1{  
@@ -40,7 +40,7 @@
     }  
     #footer{  
         clear:both;  
-        background-color:#ade;  
+        background-color:#FFFFCC;  
         font-size:75%;  
         font-family:sans-serif;  
         color:#333;  
@@ -48,16 +48,18 @@
     }  
     ol{  
         padding-top:20px;  
-        background-color:#ade;  
+        background-color:#FFFF99;  
         display:block;  
+        #border:2px solid red;
     }  
     li{  
         color:white;  
         text-align:center;  
         display:inline;  
-        padding:5px 10px 0 10px;  
-        margin-right:2px;  
-        background-color: #69a;  
+        padding:1px 10px 0 10px;  
+        margin-right:1px;  
+        background-color: #778899;  
+        #border:2px solid red;
     }  
     a{  
         text-decoration:none;  
