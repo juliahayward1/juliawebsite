@@ -6,15 +6,24 @@
         background-color:#FFFFCC;  
     }  
     #header>h1{  
-        font-size:200%;  
+        height: 2px;
+        line-height: 5px;
+        padding: 4px 6px;
+        margin-bottom: 5px;
+        clear:both;
+        font-weight: normal;
+        font-size:15px;  
+        font-family:Lucida Console;
     }  
     h2{  
-        font-size:130%;  
-        font-family:sans-serif;  
+        font-size:100%;  
+        font-family:Ariel;  
     }  
     #content{  
         margin:12px 0;  
         float:left;  
+        font-family:Lucida Console;
+        font-size:13px; 
     }  
     #side_bar{  
         margin:12px 0;  
@@ -24,10 +33,12 @@
         background-color:#FFFFCC;  
     }  
 
-    #side_bar1{  
+    #side_bar{  
+        position:fixed;
         margin:12px 0;  
-        width :30%;  
-        float:right;  
+        top:120px;
+        left:600px;
+        width :200px;  
         font-size:75%;  
         font-family:sans-serif;  
         color:#333;  
@@ -36,7 +47,9 @@
     }  
 
     h1{  
-        font-size:150%;  
+        font-size:120%;  
+        font-weight: bold;
+        font-family:Raleway;
     }  
     #footer{  
         clear:both;  
@@ -64,3 +77,19 @@
     a{  
         text-decoration:none;  
     }  
+
+    #title
+{
+    display: block;
+    border-top: 4px solid #a7a59b;
+    height: 50px;
+    line-height: 50px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    clear:both;
+    font-family:Raleway;
+    font-size:40px;  
+    color: rgba(153, 153, 153, 1.0);
+}
+#title .name { float:left }
+#title .tel { float:right; font-size:15px; }
