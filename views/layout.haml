@@ -1,7 +1,7 @@
 !!!  
 %html  
   %head  
-    %title Julia's website
+    %title Julia Hayward
     %link(rel="stylesheet" href="http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css")  
     %link(rel="stylesheet" href="http://fonts.googleapis.com/css?family=Pacifico:regularnormal|Raleway:regularnormal,700normal")
     %link(rel="stylesheet" href="css/styles.css")  
@@ -9,7 +9,8 @@
     #wrapper  
       #header  
         #title
-          %span.name Julia's Website
+          %span.name             
+            Julia Hayward
           %span.tel Tel: 07799418799
         %h1 Technical Project Manager
         %h2         
@@ -20,13 +21,20 @@
             %a(href="about")
               %li About
             %a(href="more")
-              %li More        
+              %li More   
+            %a(href="photos")
+              %li Photos      
       #content  
         =yield 
       #side_bar
-        %h1 Side Bar  
-        %p  
-          This is the side bar of the webpage  
+        %h1 Social links 
+        %p         
+          %a{:href => "http://twitter.com/JuliaH123", :target => "_blank", :title => "Twitter"}
+            %img(src="/images/twitter.jpg")
+          %a{:href => "http://www.facebook.com/julia.hayward.353", :target => "_blank", :title => "Facebook"}
+            %img(src="/images/facebook.jpg")
+          %a{:href => "http://www.linkedin.com/profile/view?id=23608581", :target => "_blank", :title => "Linkedin"}          
+            %img(src="/images/linkedin.jpg")
       #footer  
         %p  
           &#169 Julia Hayward, 2013

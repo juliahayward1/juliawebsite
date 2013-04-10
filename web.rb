@@ -13,3 +13,7 @@ end
 get '/more' do
 	haml :more
 end
+
+get '/photos' do
+	haml :photos
+end
